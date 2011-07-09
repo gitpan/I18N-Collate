@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -13,7 +13,7 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Jarkko Hietaniemi <jhi@iki.fi>, Guy Decoux <decoux@moulon.inra.fr>, The Perl 5 Porters',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'I18N-Collate',
   'EXE_FILES' => [],
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     'POSIX' => '0',
     'warnings::register' => '0'
   },
-  'VERSION' => '1.01',
+  'VERSION' => '1.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
